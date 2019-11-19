@@ -1,0 +1,40 @@
+*{box-sizing:border-box}
+table{
+border-collapse:collapse;
+width:100%
+}
+
+td{
+border:1px solid silver;
+}
+
+tr:nth-child(even){
+background-color:#eeeeee;
+}
+tr:nth-child(3){
+background-color:teal;
+color:white;
+}
+tr:nth-child(2){
+background-color:teal;
+color:white;
+}
+tr>:nth-child(11) {
+  color: crimson;
+}
+#avg{
+margin-bottom:20px;	
+}
+tfoot{
+background-color:gold;
+}
+tfoot tr>:nth-child(10) {
+  color: crimson;
+}
+th{
+	color:crimson;
+	
+}
+tr,td,th{
+padding:1%;
+}
